@@ -894,7 +894,7 @@ pub fn get_api_server(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "https://api.athere.xyz".to_owned()
+    "https://todesk.athere.xyz".to_owned()
 }
 
 pub fn get_audit_server(api: String, custom: String, typ: String) -> String {
